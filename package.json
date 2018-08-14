@@ -1,16 +1,17 @@
 {
-  "name": "metaballsWebGL2",
+  "name": "metaballsGL",
   "version": "0.0.1",
   "devDependencies": {
     "browserify": "latest",
     "watchify": "latest",
-    "browserify-shader": "latest"
+    "browserify-shader": "latest",
+    "kaleidoGL": "git://github.com/Skyfire2008/kaleidoGL.git"
   },
   "scripts": {
     "compile": "browserify -t browserify-shader src/metaballs.js -o metaballs.js",
     "watch": "watchify -t browserify-shader src/metaballs.js -o metaballs.js -v"
   },
   "dependencies": {
-    "browserify-shader": "^0.1.2"
+    "browserify-shader": "latest"
   }
 }
