@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "devDependencies": {
     "browserify": "latest",
-    "watchify": "latest",
     "browserify-shader": "latest",
-    "kaleidoGL": "git://github.com/Skyfire2008/kaleidoGL.git"
+    "kaleidoGL": "git://github.com/Skyfire2008/kaleidoGL.git",
+    "watchify": "latest"
   },
   "scripts": {
     "compile": "browserify -t browserify-shader src/metaballs.js -o metaballs.js",
